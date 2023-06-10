@@ -16,7 +16,15 @@ header {
     margin-bottom: 24px;
 }
 
-h1, h3, .table-container {
+footer {
+    background-color: rgb(172, 164, 168);
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1, h3, .table-container, footer {
     margin-top: 4px;
     font-family: sans-serif;
     text-align: center;

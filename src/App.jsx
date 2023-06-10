@@ -78,6 +78,10 @@ function App() {
                 </tr>
                 </table>
           </div>
+          <footer>
+            &copy; - Todos os direitos reservados -
+            Desenvolvido por Dev-Cabral - 09/06/2023.
+          </footer>
       </div>
   )
 }
