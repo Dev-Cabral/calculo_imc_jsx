@@ -10,7 +10,7 @@
 }
 
 header {
-    padding: 50px 0; 
+    padding: 50px 0;
     background-color: rgb(172, 164, 168);
     color: #fff;
     margin-bottom: 24px;
@@ -24,20 +24,34 @@ footer {
     font-size: 15px;
 }
 
-h1, h3, .table-container, footer {
-    margin-top: 4px;
+h1,
+h3,
+.table-container,
+footer {
+    margin-top: 8px;
     font-family: sans-serif;
     text-align: center;
 }
 
+.imc {
+    margin: 6px 0;
+}
 
-input {
+
+input,
+span {
     text-align: center;
     width: 540px;
     margin: 8px 265px;
     padding: 4px;
     padding: 4px 100px;
     margin: 8px 405px;
+}
+
+span {
+    margin-left: 555px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 button {
@@ -52,19 +66,23 @@ button {
     width: 540px;
     margin-bottom: 30px;
     margin-left: 405px;
+    margin-top: 12px;
 }
 
 button:hover {
-    background-color: rgb(180, 180, 180); 
+    background-color: rgb(180, 180, 180);
 }
 
-.table-container, .table-container-border{
+.table-container,
+.table-container-border {
     text-align: center;
     padding: 0 auto;
     margin: 0 auto;
 }
 
-.table-container-border, th, td {
+.table-container-border,
+th,
+td {
     width: 550px;
     border: 2px solid rgb(180, 180, 180);
     background-color: #ccc;
@@ -83,18 +101,37 @@ td {
     }
 
     input {
-        width: 300px;
+        width: 240px;
         margin: 8px 50px;
+        margin-left: 68px;
     }
 
-    header, h1 {
-        padding: 10px 0; 
+    .imc {
+        margin: 6px 0;
+        margin-left: 18px;
+    }
+
+    span {
+        margin-left: 70px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    header,
+    h1 {
+        padding: 10px 0;
         font-size: 30px;
     }
+
     .table-container-border {
-        width: 300px;
+        width: 280px;
         margin: 8px auto;
-        height: 50px;
+        height: 40px;
+        margin-left: 45px;
+    }
+
+    h3 {
+        margin-left: 25px;
     }
 
     td {
@@ -108,10 +145,9 @@ td {
         cursor: pointer;
         padding: 8px;
         align-items: center;
-        width: 300px;
+        width: 255px;
         margin-bottom: 30px;
-        margin-left: 50px;
+        margin-left: 55px;
     }
-    
-}
 
+}
