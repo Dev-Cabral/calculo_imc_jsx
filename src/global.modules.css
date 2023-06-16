@@ -95,24 +95,22 @@ td {
     padding-right: 24px;
 }
 
-@media (min-width:300px) and (max-width: 667px) {
+@media (max-width: 640px) {
+
     .container {
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        height: 100%;
+        max-width: 640px;
+        max-width: 100vh;
     }
 
     input {
-        height: 38px;
+    height: 44px;
     text-align: center;
     width: 50vh;
-    margin: 8px 18px;
+    margin: 8px 30px;
 }
 
     .imc {
-        margin: 6px 0;
-        margin-left: 18px;
+        margin: 6px 30;
     }
 
     span {
@@ -131,7 +129,7 @@ td {
         width: 280px;
         margin: 8px auto;
         height: 40px;
-        margin-left: 45px;
+        margin-left: 60px;
     }
 
     h3 {
@@ -150,8 +148,9 @@ td {
         padding: 8px;
         text-align: center;
         width: 50vh;
-        margin: 16px 18px;
-        height: 38px;
+        margin: 8px 30px;
+        height: 44px;
+        margin-bottom: 40px;
     }
 
 }
