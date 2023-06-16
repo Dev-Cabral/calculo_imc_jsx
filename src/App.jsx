@@ -23,6 +23,7 @@ function App() {
 
       <form>
         <h3>PESO(kg)</h3>
+        <div className="container">
         <input type="number"
           value={peso}
           onChange={(e) => setPeso(e.target.value)}
@@ -36,6 +37,7 @@ function App() {
 
         <h3 className='imc'>IMC</h3>
         <span>{baseImc}</span>
+        </div>
 
         <button type='submit'
           onClick={(event) => setCaulcularImc(event)}
@@ -74,11 +76,11 @@ function App() {
             <td>Obesidade grau III</td>
           </tr>
         </table>
-      </div>
       <footer>
         &copy; - Todos os direitos reservados -
         Desenvolvido por Dev-Cabral - 09/06/2023.
       </footer>
+      </div>
     </div>
   )
 }
