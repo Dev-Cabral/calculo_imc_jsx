@@ -25,12 +25,13 @@ footer {
     padding: 16px;
     font-weight: bold;
     font-size: 15px;
+    margin-top: 48px;
 }
 
-.table-container, h1, h3, footer {
-    margin-top: 8px;
+.table-container, h1, h3 {
     font-family: sans-serif;
     text-align: center;
+    
 }
 
 form, input {
@@ -72,7 +73,6 @@ button:hover {
     text-align: center;
     padding: 0 auto;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .table-container-border,
@@ -97,7 +97,7 @@ td {
 
     form, input {
         text-align: center;
-        width: 70%;
+        width: 80%;
         margin: 24px auto;
         padding: 12px;
     }
@@ -119,8 +119,8 @@ td {
     }
     .table-container-border {
         margin: 8px auto;
-        width: 60%;
-        margin-bottom: 56px;
+        width: 75%;
+        margin-bottom: 100px;
     }
 
     td {
@@ -134,7 +134,7 @@ td {
         cursor: pointer;
         padding: 8px;
         text-align: center;
-        width: 70%;
+        width: 80%;
         margin: 8px 10px;
         height: 44px;
         margin-bottom: 45px;
