@@ -95,26 +95,26 @@ td {
     padding-right: 24px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 340px) {
 
     .container {
-        max-width: 640px;
-        max-width: 100vh;
+        width: 100vh;
+        margin: 0 auto;
     }
 
     input {
     height: 44px;
     text-align: center;
-    width: 50vh;
-    margin: 8px 30px;
+    width: 45vh;
+    margin: 8px 10px;
 }
 
     .imc {
-        margin: 6px 30;
+        margin: 6px 10x;
     }
 
     span {
-        margin-left: 70px;
+        margin-left: 40px;
         font-weight: bold;
         font-size: 16px;
     }
@@ -125,11 +125,15 @@ td {
         font-size: 30px;
     }
 
+    header {
+        width:  343px;
+    }
+
     .table-container-border {
-        width: 280px;
+        width: 45vh;
         margin: 8px auto;
         height: 40px;
-        margin-left: 60px;
+        margin-left: 12px;
     }
 
     h3 {
@@ -147,10 +151,10 @@ td {
         cursor: pointer;
         padding: 8px;
         text-align: center;
-        width: 50vh;
-        margin: 8px 30px;
+        width: 45vh;
+        margin: 8px 10px;
         height: 44px;
-        margin-bottom: 40px;
+        margin-bottom: 45px;
     }
 
 }
