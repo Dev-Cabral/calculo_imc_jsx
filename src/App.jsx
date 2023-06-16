@@ -10,7 +10,7 @@ function App() {
 
   function setCaulcularImc(event) {
     event.preventDefault();
-    const resultado = Number(peso) / Number(altura * 2);
+    const resultado = Number(peso) / Number(altura * altura);
     setBaseImc(resultado.toFixed(2));
   }
 
@@ -20,8 +20,8 @@ function App() {
       <header >
         <h1>Cálculo IMC</h1>
       </header>
-      <form className='container'>
 
+      <form>
         <h3>PESO(kg)</h3>
         <input type="number"
           value={peso}
